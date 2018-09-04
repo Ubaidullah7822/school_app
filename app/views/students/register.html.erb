@@ -1,0 +1,15 @@
+<h2>Register Student</h2>
+
+
+
+
+<%= form_with url: assign_student_path do |form| %>
+  <p>
+     Course Name
+    <%= form.text_field :course %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+  <% end %>
